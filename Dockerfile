@@ -15,4 +15,3 @@ rm *.tar.gz && mkdir $ARTIFACTS && chmod 777 $ARTIFACTS
 WORKDIR ${HOME}/buildroot
 
 ENTRYPOINT [ "start-build.sh" ]
-# ENTRYPOINT [ "bash" ]
